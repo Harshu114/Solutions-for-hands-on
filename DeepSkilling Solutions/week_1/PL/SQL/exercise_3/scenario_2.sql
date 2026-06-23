@@ -1,0 +1,11 @@
+-- =====================================================
+-- EXERCISE 3 - SCENARIO 2
+-- Update employee bonus
+-- =====================================================
+
+-- NOTE:
+-- Employee table not created because
+-- this exercise requires an employees table
+-- that has not been defined in the base setup.
+-- Please create the employees table and related
+-- bonus logic as per your requirements.
