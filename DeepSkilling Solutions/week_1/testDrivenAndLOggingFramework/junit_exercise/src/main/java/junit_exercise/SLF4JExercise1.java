@@ -3,7 +3,7 @@ package junit_exercise;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class LoggingExample {
+public class SLF4JExercise1 {
 
     private static final Logger logger =
             LoggerFactory.getLogger(LoggingExample.class);
