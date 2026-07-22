@@ -1,0 +1,31 @@
+<div class="dashboard-container">
+  <!-- Hands-On 2, Task 1: All Four Binding Types -->
+  <h1>{{ portalName }}</h1>
+
+  <!-- Property binding: [disabled] -->
+  <button [disabled]="!isPortalActive" (click)="onEnrollClick()">Enroll Now</button>
+
+  <!-- Two-way binding with ngModel -->
+  <div class="search-box">
+    <input [(ngModel)]="searchTerm" placeholder="Search courses...">
+    <p>Searching for: {{ searchTerm }}</p>
+  </div>
+
+  <p *ngIf="message">{{ message }}</p>
+
+  <!-- Student Profile -->
+  <div class="student-profile">
+    <h2>Welcome, {{student.name}}!</h2>
+    <p><strong>Email:</strong> {{student.email}}</p>
+    <p><strong>Major:</strong> {{student.major}}</p>
+    <p><strong>Year:</strong> {{student.year}}</p>
+  </div>
+
+  <!-- Recent Courses with @Input/@Output -->
+  <div class="recent-courses">
+    <h3>Recent Courses</h3>
+    <div *ngFor="let course of recentCourses">
+      <app-course-card [course]="course" (enrollRequested)="onEnroll($event)"></app-course-card>
+    </div>
+  </div>
+</div>

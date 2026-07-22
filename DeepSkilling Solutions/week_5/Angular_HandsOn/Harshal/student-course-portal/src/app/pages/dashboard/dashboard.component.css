@@ -1,0 +1,25 @@
+.dashboard-container {
+  padding: 1rem;
+}
+.search-box {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.search-box input {
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 0.5rem;
+}
+.student-profile {
+  background: #ecf0f1;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+.recent-courses {
+  margin-top: 2rem;
+}

@@ -1,0 +1,39 @@
+/* Global Styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f6fa;
+  color: #2c3e50;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Form state CSS classes */
+.ng-invalid.ng-touched {
+  border-color: #e74c3c;
+}
+
+.ng-valid.ng-touched {
+  border-color: #2ecc71;
+}
+
+/* Highlight passed directive styles */
+.highlight-passed {
+  border-left: 4px solid #2ecc71;
+}

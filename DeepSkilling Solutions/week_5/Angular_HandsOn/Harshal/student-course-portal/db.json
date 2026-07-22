@@ -1,0 +1,16 @@
+{
+  "courses": [
+    { "id": 1, "name": "Data Structures", "code": "CS101", "credits": 4, "description": "Fundamental data structures and algorithms", "gradeStatus": "passed" },
+    { "id": 2, "name": "Algorithms", "code": "CS201", "credits": 4, "description": "Advanced algorithm design and analysis", "gradeStatus": "in-progress" },
+    { "id": 3, "name": "Database Systems", "code": "CS301", "credits": 3, "description": "Relational databases and SQL" },
+    { "id": 4, "name": "Operating Systems", "code": "CS401", "credits": 3, "description": "Process management and memory allocation" },
+    { "id": 5, "name": "Computer Networks", "code": "CS501", "credits": 3, "description": "Network protocols and architectures" }
+  ],
+  "students": [
+    { "id": 1, "name": "John Doe", "email": "john.doe@student.edu", "major": "Computer Science", "year": 3 }
+  ],
+  "enrollments": [
+    { "id": 1, "studentId": 1, "courseId": 1, "semester": "Odd", "status": "completed" },
+    { "id": 2, "studentId": 1, "courseId": 2, "semester": "Even", "status": "in-progress" }
+  ]
+}

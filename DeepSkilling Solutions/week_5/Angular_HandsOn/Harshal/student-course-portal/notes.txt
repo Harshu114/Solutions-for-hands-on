@@ -1,0 +1,10 @@
+Angular Project File Explanations (Hands-On 1, Task 1)
+
+1. angular.json — Angular workspace/CLI configuration. Controls build options (output path, budgets, configs) and default project settings.
+2. package.json — Node.js dependencies and npm scripts (start, build, test). Lists Angular packages, rxjs, zone.js, etc.
+3. tsconfig.json — Root TypeScript compiler options (target ES2022, strict mode, module resolution).
+4. tsconfig.app.json — TypeScript config specifically for the application build (excludes spec/test files via rootDir/outDir).
+5. tsconfig.spec.json — TypeScript config for running unit tests (includes jasmine types and spec files).
+6. src/main.ts — Application entry point. Bootstraps AppModule via platformBrowserDynamic().
+7. src/app/app.module.ts — Root NgModule. Declares all components, imports BrowserModule/FormsModule/HttpClientModule/RouterModule/NgRx, configures routes.
+8. src/index.html — Main HTML shell. Contains the <app-root> mounting point and base href for routing.
