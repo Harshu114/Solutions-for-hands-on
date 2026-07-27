@@ -9,5 +9,5 @@ The purpose of this repository is to maintain and showcase my completed exercise
 ## Notes
 
 All solutions are implemented as part of the learning process
-accindently made a commit here
+
 
